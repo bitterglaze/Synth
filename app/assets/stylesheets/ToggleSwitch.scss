@@ -1,0 +1,55 @@
+.ToggleSwitch {
+  display: inline-block;
+  // width: 110%;
+  height: 22px;
+  // margin: 10px;
+  background: white;
+  // line-height: 25px;
+  text-align: center;
+  color: black;
+  border-radius: 8px;
+  border: 2px solid black;
+  padding: 0px 12px;
+
+  &.sine {
+    color: red;
+  }
+  &.square {
+    color: green;
+  }
+  &.sawtooth {
+    color: blue;
+  }
+  &.triangle {
+    color: pink;
+  }
+
+  &.on {
+    background: #fc4773;
+    color: black;
+  }
+}
+
+div#membrane .ToggleSwitch {
+  &.on {
+    background: yellow;
+  }
+}
+
+div#membraneeffect .ToggleSwitch {
+  &.on {
+    background: #ED99EC;
+  }
+}
+
+div#ambient .ToggleSwitch {
+  &.on {
+    background: #fa7aa8;
+  }
+}
+
+div#lead .ToggleSwitch {
+  &.on {
+    background: #0055FF;
+  }
+}

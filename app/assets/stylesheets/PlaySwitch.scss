@@ -1,0 +1,225 @@
+.PlaysSwitchCover {
+  display: -webkit-flex;
+  display: flex;
+
+  width: 100%;
+  height: 100%;
+  margin-top: 30px;
+}
+
+.PadPercContainer {
+  display: flex;
+  align-items: center;
+  -webkit-flex-flow: row wrap;
+
+  flex-direction: column;
+}
+
+.PlaySwitch {
+  animation: anim 5s;
+  animation-duration: 5s;
+
+  display: block;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-top: 2px solid black;
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  border-radius: 3px;
+
+  &.play {
+    &.switchOn {
+      animation: anim 5s;
+      animation-duration: 5s;
+      background-color: #2b2b2b;
+    }
+
+    &.switchOff {
+      background-color: #fc4773;
+
+      // background: radial-gradient(50px 50px, #e66465, #9198e5);
+    }
+  }
+}
+
+@keyframes anim {
+  from {
+    // transform: skew(-10deg, 50deg);
+    left: 300px;
+    animation: anim 5s;
+    animation-duration: 5s;
+    // background-color: #222121;
+    width: 500px;
+    height: 500px;
+
+    opacity: 0;
+  }
+  to {
+    transform: skew(0, 0);
+    width: 50px;
+    height: 50px;
+    // border-radius: 3px;
+    opacity: 100;
+  }
+}
+
+// .block {
+//   animation: anim 3s;
+//   animation-duration: 3s;
+//   width: 200px;
+//   height: 200px;
+//   background: red;
+//   position: absolute;
+//   top: 0;
+// }
+
+@keyframes anim {
+  from {
+    left: -100%;
+  }
+  to {
+    left: 0;
+  }
+}
+
+div#drum .PlaySwitch {
+  border-radius: 100px;
+}
+
+.PlaySwitchContainer {
+  // width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-direction: row;
+  border-radius: 4px;
+
+  justify-content: center;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+.ButtonNameContainer {
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.ButtonExplain {
+  animation: anim 5s;
+  animation-duration: 5s;
+
+  text-align: center;
+  // font-size: 8px;
+  font-size: 10px;
+  background-color: #ffdcdc;
+  color: white;
+  width: 45px;
+  height: 22px;
+  margin-top: -5px;
+  margin-bottom: 4px;
+  /* border: 1px solid black; */
+  border-radius: 50px;
+}
+
+.ButtonContainerGroup1,
+.ButtonContainerGroup2,
+.ButtonContainerGroup3,
+.ButtonContainerGroup4 {
+  display: -webkit-flex;
+  display: flex;
+  margin-right: -20px;
+  margin-top: 20px;
+  margin-bottom: 19px;
+
+  border: 1.5px solid black;
+  background-color: #ffddeb;
+  border-top: 2px solid black;
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+}
+
+.ButtonContainerGroup1,
+.ButtonContainerGroup3 {
+  height: 100%;
+  margin-top: 201px;
+}
+
+.ButtonContainerGroup2 {
+  width: 380px;
+}
+
+.ButtonContainerGroup4 {
+  width: 230px;
+}
+
+.ButtonContainerGroup1 {
+  // margin-right: 45px;
+}
+
+.ButtonContainerGroup3 {
+  // margin-right: 45px;
+}
+
+div#membrane .PlaySwitch {
+  &.play {
+    &.switchOff {
+      background-color: yellow;
+    }
+  }
+}
+div#membraneeffect .PlaySwitch {
+  &.play {
+    &.switchOff {
+      background-color: #ed99ec;
+    }
+  }
+}
+
+div#ambient .PlaySwitch {
+  &.play {
+    &.switchOff {
+      background-color: #fa7aa8;
+    }
+  }
+}
+
+div#lead .PlaySwitch {
+  &.play {
+    &.switchOff {
+      background-color: #0055ff;
+    }
+  }
+}
+
+.note {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  border: 1.3px solid black;
+  margin-top: 10px;
+  background-color: #fc4773;
+}
+
+div#membrane .note {
+  background-color: yellow;
+}
+
+div#membraneeffect .note {
+  background-color: #ed99ec;
+}
+
+div#ambient .note {
+  background-color: #fa7aa8;
+}
+
+div#lead .note {
+  background-color: #0055ff;
+}

@@ -1,0 +1,54 @@
+{
+  "application.js": "/packs/js/application-db806650cb0b6f360015.js",
+  "application.js.map": "/packs/js/application-db806650cb0b6f360015.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/packs/js/application-db806650cb0b6f360015.js"
+      ],
+      "js.map": [
+        "/packs/js/application-db806650cb0b6f360015.js.map"
+      ]
+    },
+    "hello_react": {
+      "js": [
+        "/packs/js/hello_react-932c4d8046bc82cfdc98.js"
+      ],
+      "js.map": [
+        "/packs/js/hello_react-932c4d8046bc82cfdc98.js.map"
+      ]
+    },
+    "server_rendering": {
+      "js": [
+        "/packs/js/server_rendering-c24dad8d09494a41cc54.js"
+      ],
+      "js.map": [
+        "/packs/js/server_rendering-c24dad8d09494a41cc54.js.map"
+      ]
+    },
+    "synth": {
+      "js": [
+        "/packs/js/synth-1d8149c318f97c794ca1.js"
+      ],
+      "js.map": [
+        "/packs/js/synth-1d8149c318f97c794ca1.js.map"
+      ]
+    },
+    "thereminvox": {
+      "js": [
+        "/packs/js/thereminvox-16e2a2cef575c9ae95fa.js"
+      ],
+      "js.map": [
+        "/packs/js/thereminvox-16e2a2cef575c9ae95fa.js.map"
+      ]
+    }
+  },
+  "hello_react.js": "/packs/js/hello_react-932c4d8046bc82cfdc98.js",
+  "hello_react.js.map": "/packs/js/hello_react-932c4d8046bc82cfdc98.js.map",
+  "server_rendering.js": "/packs/js/server_rendering-c24dad8d09494a41cc54.js",
+  "server_rendering.js.map": "/packs/js/server_rendering-c24dad8d09494a41cc54.js.map",
+  "synth.js": "/packs/js/synth-1d8149c318f97c794ca1.js",
+  "synth.js.map": "/packs/js/synth-1d8149c318f97c794ca1.js.map",
+  "thereminvox.js": "/packs/js/thereminvox-16e2a2cef575c9ae95fa.js",
+  "thereminvox.js.map": "/packs/js/thereminvox-16e2a2cef575c9ae95fa.js.map"
+}

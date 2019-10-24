@@ -1,0 +1,102 @@
+.ButtonSet {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  padding-left: 3px;
+}
+
+.Button {
+  display: flex;
+  justify-content: center;
+  padding: 2px 6px 0px 6px;
+  font-size: 13px;
+  border-top: 2px solid black;
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+
+  margin-left: -3px;
+  // background-image: image_url('sawtooth.png');
+
+  &.on {
+    background-color: #fc4773;
+  }
+}
+
+div#membraneeffect .Button {
+  &.on {
+    background-color: #ed99ec;
+  }
+}
+
+div#ambient .Button {
+  &.on {
+    background-color: #fa7aa8;
+  }
+}
+
+div#membrane .Button {
+  &.on {
+    background-color: yellow;
+  }
+}
+
+div#lead .Button {
+  &.on {
+    background-color: #0055FF;
+  }
+}
+
+.Button.images {
+  display: flex;
+  justify-content: center;
+  // padding: 6px;
+  font-size: 13px;
+  border-top: 2px solid black;
+  border-bottom: 3px solid black;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+
+  margin-left: -3px;
+
+  height: 25px;
+}
+
+.sawtooth {
+  // background: yellow;
+  background-image: image_url('sawtooth.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 6px;
+  // padding: 10px;
+}
+
+.square {
+  // background: yellow;
+  background-image: image_url('square.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 8px;
+  // padding: 10px;
+}
+.triangle {
+  // background: yellow;
+  background-image: image_url('triangle.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 19px;
+  height: 7px;
+  padding-bottom: -3px;
+  // padding: 10px;
+}
+.sine {
+  // background: yellow;
+  background-image: image_url('sine.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 18px;
+  height: 6px;
+  // padding: 10px;
+}
